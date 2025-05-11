@@ -1,0 +1,36 @@
+
+#####################################################################################class-level
+#clearml: False
+#taskname: JIT_Repair
+#datadir: RQ1/18_open_projects/18_projects_eval/test_class_level
+#modelpath: models/m3/checkpoint_best.pt
+#source: buggy
+#target: repair
+#outputfile: RQ1_res/JRepair_m3_cb10_18project.pred
+#candidate_size: 10
+#beam_size: 10
+#skip_invalid_size_inputs_valid_test: True
+
+####################################################################################method-level
+clearml: False
+taskname: JIT_Repair
+datadir: RQ1/18_open_projects/18_projects_eval/test_function_level
+modelpath: models/m2/checkpoint_best.pt
+source: buggy
+target: repair
+outputfile: RQ1_res/JRepair_m2_cb10_18project.pred
+candidate_size: 10
+beam_size: 10
+skip_invalid_size_inputs_valid_test: True
+
+######################################################################################context-free
+#clearml: False
+#taskname: JIT_Repair
+#datadir: RQ1/18_open_projects/18_projects_eval/test_context-free_level
+#modelpath: models/m1/checkpoint_best.pt
+#source: buggy
+#target: repair
+#outputfile: RQ1_res/JRepair_m1_cb10_18project.pred
+#candidate_size: 10
+#beam_size: 10
+#skip_invalid_size_inputs_valid_test: True
