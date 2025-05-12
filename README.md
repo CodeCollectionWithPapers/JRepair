@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/github/license/mashape/apistatus" alt="" />
 </p>
 
-# JRepair
+# JRepair: Just-In-Time Defect Repair for Program Commit
 Link to download artifacts for our JIT defect repair model:
 https://zenodo.org/records/15382992
 
