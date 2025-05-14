@@ -2,10 +2,17 @@
 <img src="https://img.shields.io/github/license/mashape/apistatus" alt="" />
 </p>
 
-# JRepair: Just-In-Time Defect Repair for Program Commit
+# JRepair: Just-In-Time Defect Repair
 Link to download artifacts for our JIT defect repair model:
 https://zenodo.org/records/15382992
-
+## Environment dependencies
+* python 3.9
+* torch 1.12.0
+* numpy 1.23.5
+* tqdm 4.67.0
+* fairseq 0.6.0
+* yaml 0.1.6
+* libclang 14.0.6
 ## Data Process
 Run prepare_source_data.py.<br />
 Reprocess the raw data and process the data in _test.bin_ format for subsequent model inference. For different evaluations, the processed datasets are at three levels, including context-free, method-level, and class-level.
