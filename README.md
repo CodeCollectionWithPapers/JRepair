@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/github/license/mashape/apistatus" alt="" />
 </p>
 
-# JRepair: Just-In-Time Defect Repair
+# JRepair: Just-In-Time Defect Repair (Under Review)
 ## Environment dependencies
 * python 3.9
 * torch 1.12.0
